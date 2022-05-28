@@ -1,0 +1,15 @@
+{
+	"extends": ["@shopify/stylelint-plugin/prettier"],
+	"reportNeedlessDisables": false,
+	"rules": {
+		"indentation": "tab",
+		"color-no-hex": null,
+		"property-no-unknown": null,
+		"declaration-no-important": null,
+		"media-feature-name-case": null,
+		"selector-id-pattern": null,
+		"selector-max-id": null,
+		"selector-max-specificity": null,
+		"value-keyword-case": null
+	}
+}

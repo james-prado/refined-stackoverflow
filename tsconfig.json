@@ -1,0 +1,17 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./src/",
+		"outDir": "./dist/",
+		"module": "ES6",
+		"target": "es5",
+		"sourceMap": true,
+		"strictNullChecks": true,
+		"forceConsistentCasingInFileNames": true,
+		"noImplicitAny": true,
+		"allowJs": true,
+		"noEmitOnError": false,
+		"typeRoots": ["node_modules/@types", "./typings.d.ts"]
+	},
+	"include": ["**/*.ts"],
+	"exclude": ["node_modules"]
+}
